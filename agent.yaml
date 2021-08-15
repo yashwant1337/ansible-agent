@@ -1,0 +1,7 @@
+- hosts: localhost
+  roles:
+    - gsoft.azure_devops_agent
+  vars:
+    - az_devops_agent_role: $AZ_AGENT_ROLE
+    - az_devops_accountname: $AZ_ACCOUNT_NAME
+    - az_devops_accesstoken: $AZ_ACCESS_TOKEN
