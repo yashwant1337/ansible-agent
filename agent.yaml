@@ -2,6 +2,6 @@
   roles:
     - gsoft.azure_devops_agent
   vars:
-    - az_devops_agent_role: $AZ_AGENT_ROLE
-    - az_devops_accountname: $AZ_ACCOUNT_NAME
-    - az_devops_accesstoken: $AZ_ACCESS_TOKEN
+    - az_devops_agent_role: build
+    - az_devops_accountname: gcpcluster2
+    - az_devops_accesstoken: l2ildip6d2jdmuyarwkgkphb4bxrxrwdastrfs74avcvmbcnb54a
